@@ -21,6 +21,7 @@ h1 {
     letter-spacing: 10px;
     color: white;
     font-style: normal;
+    text-align: center;
 }
 
 .h1-hr {
@@ -102,9 +103,8 @@ p {
     justify-content: center;
     text-align: center;
     height: 300px;
-    width: 80%;
+    width: 73%;
     max-width: 600px;
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-color: white;
     background-position: top;
