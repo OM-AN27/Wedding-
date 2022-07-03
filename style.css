@@ -16,7 +16,7 @@ span {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'The Nautigal', cursive;
     letter-spacing: 10px;
     color: white;
@@ -77,9 +77,9 @@ p {
 .img {
     height: 200px;
     background-color: red;
-    background-image:  linear-gradient(90deg ,rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)), url("/imgs/hero\ vancouver.jpg");
-    background-position: top;
+    background-image:  linear-gradient(90deg ,rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)), url("/imgs/hero\ flowers.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     display: flex;
@@ -107,9 +107,9 @@ p {
     margin: 0 auto;
     background-repeat: no-repeat;
     background-color: white;
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    background-image: linear-gradient(90deg ,rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)), url("/imgs/us.jpg");
+    background-image: linear-gradient(90deg ,rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)), url("/imgs/photo\ us\ 3.jpg");
     transform: translateY(-60px);
     color: #5559;
     border: 7px solid white;
@@ -120,10 +120,11 @@ p {
 }
 
 .mexican-flower {
-    width: 180px;
+    width: 190px;
     position: absolute;
-    right: 0px;
+    right: -2px;
     top: -50px;
+    transform: rotate(10deg);
 }
 
 .transform-card > p {
@@ -339,7 +340,7 @@ textarea {
     }
 
     .mexican-flower  {
-        width: 200px;
+        width: 230px;
         right: -35px;
     }
 
