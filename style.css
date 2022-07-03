@@ -16,10 +16,11 @@ span {
 }
 
 h1 {
-    font-size: 55px;
-    font-family: 'Milton One';
+    font-size: 45px;
+    font-family: 'The Nautigal', cursive;
     letter-spacing: 10px;
     color: white;
+    font-style: normal;
 }
 
 .h1-hr {
@@ -118,8 +119,8 @@ p {
 
 }
 
-.maple-leaf {
-    width: 150px;
+.mexican-flower {
+    width: 180px;
     position: absolute;
     right: 0px;
     top: -50px;
@@ -247,7 +248,7 @@ p {
 }
 
 .flower-icon {
-    width: 400px;
+    width: 360px;
 }
 
 .gift-info-wrapper  > p{
@@ -335,5 +336,14 @@ textarea {
     
     .max-width-fv {
         max-width: 900px;
+    }
+
+    .mexican-flower  {
+        width: 200px;
+        right: -35px;
+    }
+
+    .flower-icon {
+        width: 400px;
     }
 }
