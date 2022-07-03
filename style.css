@@ -1,0 +1,339 @@
+/* globals  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Milton One';
+    letter-spacing: 10px;
+    color: white;
+}
+
+.h1-hr {
+    /* color: white; */
+    width: 35px;
+    border: 1.5px solid white;
+}
+
+
+h2{
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #AD3848;
+}
+
+.save-the-date {
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 0;
+    color: white;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    color:#5559;
+}
+
+
+/* rsvp absolute button */
+
+.rvp-box {
+    background-color: #AD3848;
+    color: white;
+    position: fixed;
+    z-index: 30;
+    padding: 60px;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+}
+
+.rsvp-btn {
+    transform: rotate(-45deg);
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 31;
+}
+
+
+/* hero  */
+.img {
+    height: 200px;
+    background-color: red;
+    background-image:  linear-gradient(90deg ,rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)), url("/imgs/hero\ vancouver.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* main content  */
+
+#description{
+    background-color: rgba(250, 235, 215, 0.283);
+    display: flex;
+    justify-content: center;
+}
+
+.transform-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(90deg ,rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)), url("/imgs/us.jpg");
+    transform: translateY(-60px);
+    color: #5559;
+    border: 7px solid white;
+    box-shadow: 0px 0px 10px #5554;
+    position: relative;
+    transform: rotate(7deg);
+
+}
+
+.maple-leaf {
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+
+.transform-card > p {
+    background-color: #AD3848;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    align-self: center;
+    border: 2px solid white;
+}
+
+.max-width-wrappers {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.max-width-fv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.p-content {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.hr-divider {
+    color: bisque;
+    max-width: 100px;
+    margin-top: 50px;
+    border: 2px solid;
+}
+
+
+
+#info {
+    padding: 30px 10px;
+}
+
+/* span mexico colors  */
+
+.span-1 {
+    color: #f72215;
+}
+
+.span-2 {
+    color: #e4007c;
+}
+
+.span-3 {
+    color: #ffd439;
+}
+
+.span-4 {
+    color: #faa405;
+}
+
+.span-5 {
+    color: #a0c409;
+}
+
+.span-6 {
+    color: #1cb0d4;
+}
+
+
+#location{
+    background-color: #374059;
+    padding: 10px 10px 100px 10px;
+
+}
+
+.icons {
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+}
+
+.fraser-cidery > p{
+    color: rgba(255, 255, 255, 0.8);
+}
+.fraser-cidery > h2{
+    color: white;
+}
+
+.fs-image {
+    width: 100%;
+    transition: transform 0.3s ease;
+
+}
+
+.gifts {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.gift-info-wrapper {
+    text-align: center;
+    /* background-color: rgba(250, 235, 215); */
+    border: 5px solid bisque;
+    position: relative;
+    padding: 50px 10px;
+}
+
+.gift-title {
+    color: #AD3848;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.flowers-div {
+    transform: translateY(60px);
+    position: relative;
+    z-index: 20;
+}
+
+.flower-icon {
+    width: 400px;
+}
+
+.gift-info-wrapper  > p{
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#rsvp{
+    background-color: rgb(250, 235, 215, 0.5);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 100px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+input {
+    border: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+textarea {
+    border: none;
+    padding: 5px;
+    color: #555;
+}
+
+.sbmt-btn {
+    background-color: #AD3848;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+@media  screen and (min-width: 700px) {
+
+    h1 {
+        font-size: 90px;
+    }
+
+    .h1-hr {
+        width: 50px;
+    }
+
+    .p-content {
+        font-size: 20px;
+        line-height:40px ;
+    }
+
+    .icon {
+        width: 80px;
+    }
+    
+    .icons {
+        grid-template-columns: repeat(3,1fr);
+
+    }
+
+    .fv-images-grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+    }
+
+    .fs-image {
+        height: 100%;
+    }
+
+    .fs-image:hover {
+        transform: scale(1.2);
+        transition: transform 0.4s ease;
+    }
+    
+    .max-width-fv {
+        max-width: 900px;
+    }
+}
