@@ -1,6 +1,7 @@
 /* globals  */
 
 html {
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -9,6 +10,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    background-color: white;
 }
 
 span {
@@ -77,7 +79,6 @@ p {
 /* hero  */
 .img {
     height: 200px;
-    background-color: red;
     background-image:  linear-gradient(90deg ,rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)), url("/imgs/hero\ flowers.jpg");
     background-repeat: no-repeat;
     background-position: center;
