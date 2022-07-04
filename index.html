@@ -55,7 +55,7 @@
             </div>
             <div style="text-align: center; margin-top: 50px;">
                 <p class="p-content">*Alcoholic beverages will be available for purchase at the cidery for you to enjoy.</p>
-                <p class="p-content" style="color: #AD3848">The attire is semi-formal, we want everyone to look good and feel comfortable!</p>
+                <p class="p-content" style="color: #AD3848">The attire is semi-formal/dressy casual, we want everyone to look good and feel comfortable!</p>
             </div>
         </div>
     </section>
@@ -91,8 +91,16 @@
     <section id="rsvp">
         <div class=" max-width-wrappers">
         <h2>Are You Coming?</h2>
-        <p style="color: #555">Make sure to let us know about any food allergies/sensitivities/foods that you won't enjoy and If you are able to make it. If you have any questions you can also ask them in the box below and we'll get back to you as soon as we can.</p>
+        <p style="color: #555">Make sure to let us know about any food allergies/sensitivities/foods that you won't enjoy and if you are able to make it.</p> 
+        <p style="color: #555">If you have any questions you can also ask them in the box below and we'll get back to you as soon as we can.</p>
             <form class='contact-form' action='https://formspree.io/f/mvodnyba' method="POST">
+                <h3>Will you be there?</h3>
+                <div style="display: flex; align-items: center; gap: 10px; justify-content: center;">
+                    <label for="radiobtn">Yes</label>
+                    <input value="I'll Be There" name="radiobtn" type="radio">
+                    <label for="radiobtn">No</label>
+                    <input value="Not Coming" name="radiobtn" type="radio">
+                </div>
                 <input name='name' type="text" placeholder="Name" required>
                 <input name='email' type="email" placeholder="Email" required>
                 <textarea name="message" cols="30" rows="10" placeholder="Allergies, questions, names of members of your party..." required></textarea>
