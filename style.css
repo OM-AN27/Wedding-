@@ -62,8 +62,15 @@ p {
     padding: 60px;
     right: 0;
     bottom: 0;
-    clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+    /* clip-path: polygon(100% 1%, 0% 100%, 100% 100%); */
 }
+
+@supports (clip-path: polygon(100% 1%, 0% 100%, 100% 100%)) {
+    .rvp-box {
+        clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+    }
+}
+  
 
 .rsvp-btn {
     transform: rotate(-45deg);
@@ -240,7 +247,6 @@ p {
 
 .gift-title {
     color: #AD3848;
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 .flowers-div {
