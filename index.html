@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
@@ -20,7 +21,7 @@
         <h1>Omar & Kianna</h1>
         <hr class="h1-hr">
     </section>
-    <section id="description">
+    <section data-aos="fade-up" data-aos-once="true" data-aos-duration="2000" id="description">
         <div class="transform-card">
             <h2 class="save-the-date">Save the Date</h2>
             <p>September 4th, 2022</p>
@@ -29,13 +30,13 @@
     </section>
     <section id="info">
         <div class="max-width-wrappers">
-            <h2>Celebrate With Us!</h2>
+            <h2 style="text-align: center;">Celebrate With Us!</h2>
+            <hr class="hr-divider">
     
             <p class="p-content">You've been invited to celebrate our marriage! </p>
             <p class="p-content">Sadly our dream wedding in <span class="span-1">M</span><span class="span-2">e</span><span class="span-3">x</span><span class="span-4">i</span><span class="span-5">c</span><span class="span-6">o</span> had to be cancelled for reasons that we all know. We made the difficult
                 decision to have a small ceremony, and we are celebrating the day after with a party for our close family and friends. We hope to see you there!</p>
             <p class="p-content">Times were uncertain and rapidly changing so we apologize for the short notice of our event, we hope you can be there and help us make it a memorable day.</p>
-            <hr class="hr-divider">
             <div class="icons">
                 <div>
                     <img class="icon" src="/imgs/date-revamped.png" alt="date icon">
@@ -59,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section class="gifts">
+    <section  data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" class="gifts">
         <div class="flowers-div">
             <img class="flower-icon" src="/imgs/transparent-floral-design-5ee94ba1856b95.1317815915923475535465.png" alt="bow image">
         </div>
@@ -83,9 +84,9 @@
     </section>
     <div style="transform: translateY(-60px);" class="max-width-fv">
         <div class="fv-images-grid">
-            <img src="/imgs/Fraser-Valley-Cider-1.png" alt="fraser location image" class="fs-image">
-            <img src="/imgs/Fraser-Valley-Cider-2.jpg" alt="fraser location image" class="fs-image">
-            <img src="/imgs/Fraser-Valley-Cider-3.jpg" alt="fraser location image" class="fs-image">
+            <img data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" src="/imgs/Fraser-Valley-Cider-1.png" alt="fraser location image" class="fs-image">
+            <img data-aos="fade-up" data-aos-once="true" data-aos-duration="1600" src="/imgs/Fraser-Valley-Cider-2.jpg" alt="fraser location image" class="fs-image">
+            <img data-aos="fade-up" data-aos-once="true" data-aos-duration="2200" src="/imgs/Fraser-Valley-Cider-3.jpg" alt="fraser location image" class="fs-image">
         </div>
     </div>
     <section id="rsvp">
@@ -108,5 +109,10 @@
             </form>
         </div>
     </section>
+    <footer>
+        <p style="color: #5554; text-align: center;">&reg; 2022. Website designed and developed by the Groom.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 </body>
 </html>
